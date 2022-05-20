@@ -53,3 +53,17 @@
 .about-become-tag:hover{
 	color: #c4b624;
 }
+@media screen and (max-width: 991px){
+	.about-become-tag{
+		width: 20%;
+	}
+}
+@media screen and (max-width: 767px){
+	.about-become-tag{
+		width: 30%;
+	}
+	.about-content{
+		width: 100%;
+		text-align: center;
+	}
+}
