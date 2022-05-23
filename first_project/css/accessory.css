@@ -1,0 +1,130 @@
+.accessory-title{
+	font-size: 20px;
+	font-weight: 550;
+	padding: 20px;
+}
+.accessory-content{
+	cursor: pointer;
+}
+.accessory-color{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border: 1px solid #000;
+	margin: 5px;
+	cursor: pointer;
+}
+.accessory-color2{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border: 1px solid #000;
+	margin: 5px;
+	cursor: pointer;
+}
+.accessory-color3{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border: 1px solid #000;
+	margin: 5px;
+	cursor: pointer;
+}
+.accessory-color4{
+	width: 20px;
+	height: 20px;
+	background-color: orange;
+	border: 1px solid #000;
+	margin: 5px;
+	cursor: pointer;
+}
+.accessory-color5{
+	width: 20px;
+	height: 20px;
+	background-color: yellow;
+	border: 1px solid #000;
+	margin: 5px;
+	cursor: pointer;
+}
+.accessory-color6{
+	width: 20px;
+	height: 20px;
+	background-color: green;
+	border: 1px solid #000;
+	margin: 5px;
+	cursor: pointer;
+}
+.accessory-color7{
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	border: 1px solid #000;
+	margin: 5px;
+	cursor: pointer;
+}
+.accessory-thumbnail{
+	position: relative;
+	overflow: hidden;
+}
+.accessory-thumbnail:hover .accessory-coating{
+	display: block;
+}
+.accessory-thumbnail:hover img{
+	transform: scale(1.1);
+	transition: 0.3s ease-in-out;
+}
+.accessory-coating{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.accessory-product-title{
+	font-size: 20px;
+	padding: 10px 0;
+}
+.accessory-product-tag{
+	width: 30%;
+	background-color: #000;
+	color: #fff;
+	padding: 10px 15px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.accessory-product-tag:hover{
+	color: #c4b624;
+}
+.accessory-page{
+	display: flex;
+	margin: 0 auto;
+}
+.accessory-page-item{
+	width: 30px;
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+	margin: 40px 0 ;
+}
+.accessory-page-item:hover{
+	background-color: #000;
+	color: #c4b624;
+}
+@media screen and (max-width: 991px){
+	.accessory-product-content{
+		text-align: justify;
+	}
+	.accessory-product-tag{
+		width: 15%;
+	}
+}
+@media screen and (max-width: 767px){
+	.accessory-product-content{
+		text-align: justify;
+	}
+	.accessory-product-tag{
+		width: 30%;
+	}
+}
